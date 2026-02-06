@@ -14,7 +14,7 @@ const page = () => {
       </div>
       {
         userName==="agentX" ? (
-            <Table onView={() => alert("View clicked")} />
+             <Tablez />
         ) : userName==="agentZ" ? ( 
            <Tablez />
         ) : (
