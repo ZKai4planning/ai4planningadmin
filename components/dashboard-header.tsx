@@ -1,6 +1,6 @@
 "use client"
 
-import { Logo } from "./logo"
+import  Logo  from "./logo"
 
 export function DashboardHeader() {
   return (

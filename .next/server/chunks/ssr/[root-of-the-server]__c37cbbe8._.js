@@ -1,0 +1,8 @@
+module.exports=[81066,a=>{a.v({className:"geist_a7695b8e-module__Entzca__className"})},94064,a=>{a.v({className:"geist_mono_354fc78-module__zrY5Sa__className"})},33290,a=>{"use strict";var b=a.i(7997),c=a.i(81066);let d={className:c.default.className,style:{fontFamily:"'Geist', 'Geist Fallback'",fontStyle:"normal"}};null!=c.default.variable&&(d.variable=c.default.variable);var e=a.i(94064);let f={className:e.default.className,style:{fontFamily:"'Geist Mono', 'Geist Mono Fallback'",fontStyle:"normal"}};function g({children:a}){return(0,b.jsxs)("html",{lang:"en",className:"light",children:[(0,b.jsx)("head",{children:(0,b.jsx)("link",{href:"https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap",rel:"stylesheet"})}),(0,b.jsx)("body",{className:`
+          min-h-screen
+          overflow-x-hidden
+          font-sans
+          antialiased
+        `,children:a})]})}null!=e.default.variable&&(f.variable=e.default.variable),a.s(["default",()=>g,"metadata",0,{title:"Ai4Planning",description:"Initialize authentication sequence to modify living blueprints and AI-optimized structural modules.",generator:"v0.app",icons:{icon:[{url:"/icon-light-32x32.png",media:"(prefers-color-scheme: light)"},{url:"/icon-dark-32x32.png",media:"(prefers-color-scheme: dark)"},{url:"/icon.svg",type:"image/svg+xml"}],apple:"/apple-icon.png"}}],33290)}];
+
+//# sourceMappingURL=%5Broot-of-the-server%5D__c37cbbe8._.js.map

@@ -209,7 +209,6 @@ function AnalysisModal({ onComplete }: { onComplete: () => void }) {
                 key={i}
                 className="flex items-center gap-3 text-sm text-slate-700"
               >
-                {/* STATUS ICON */}
                 {isCompleted ? (
                   <CheckCircle2 className="w-5 h-5 text-green-600" />
                 ) : isActive ? (
@@ -218,17 +217,13 @@ function AnalysisModal({ onComplete }: { onComplete: () => void }) {
                   <span className="h-5 w-5 rounded-full border border-slate-300" />
                 )}
 
-                {/* STEP ICON */}
                 <log.icon className="w-5 h-5 text-blue-600" />
-
-                {/* TEXT */}
                 <span>{log.text}</span>
               </div>
             )
           })}
         </div>
 
-        {/* PROGRESS BAR */}
         <div className="mt-6 h-2 w-full rounded-full bg-slate-100 overflow-hidden">
           <div
             className="h-full bg-blue-600 transition-all duration-500"
@@ -244,6 +239,7 @@ function AnalysisModal({ onComplete }: { onComplete: () => void }) {
     </div>
   )
 }
+
 
 /* ================= ROADMAP HELPERS ================= */
 

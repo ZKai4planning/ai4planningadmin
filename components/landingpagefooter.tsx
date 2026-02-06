@@ -1,4 +1,3 @@
-import { Logo } from "./logo";
 
 export default function Footer() {
   return (
@@ -6,7 +5,7 @@ export default function Footer() {
       <div className="max-w-[1440px] mx-auto flex flex-col md:flex-row justify-between items-center text-xs text-[#616f89] dark:text-[#a0aec0]">
         <div className="flex items-center gap-3 text-primary">
           <a href="/" className="flex items-center gap-3">
-            <Logo />
+            
             <h2 className="text-slate-900 dark:text-white text-lg font-bold tracking-tight">
               Ai4Planning
             </h2>

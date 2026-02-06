@@ -21,21 +21,18 @@ const INITIAL_ROLES: Role[] = [
     roleId: "admin",
     roleName: "Admin",
     status: 0,
-    isActive: true,
   },
   {
     id: "2",
     roleId: "manager",
     roleName: "Manager",
     status: 0,
-    isActive: true,
   },
   {
     id: "3",
     roleId: "employee",
     roleName: "Employee",
     status: 0,
-    isActive: true,
   },
 ]
 

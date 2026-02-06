@@ -1,6 +1,6 @@
-import Image from "next/image"
 import { cn } from "@/lib/utils"
- 
+
+
 export default function Logo({
   collapsed = false,
 }: {
@@ -13,15 +13,8 @@ export default function Logo({
         collapsed ? "justify-center" : "justify-start"
       )}
     >
-      {/* <Image
-        src="/logovideo.mp4"
-        alt="Ai4Planning Logo"
-        width={40}
-        height={28}
-        priority
-        className=""
-      /> */}
- 
+      
+
       {!collapsed && (
         <span className="font-bold ml-1 text-lg whitespace-nowrap">
           AI4PLANNING
@@ -30,5 +23,3 @@ export default function Logo({
     </div>
   )
 }
- 
- 

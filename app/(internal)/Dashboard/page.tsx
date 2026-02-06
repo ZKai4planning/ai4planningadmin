@@ -16,7 +16,7 @@ const page = () => {
         userName==="agentX" ? (
             <Table onView={() => alert("View clicked")} />
         ) : userName==="agentZ" ? ( 
-           <Tablez onActionClick={() => alert("View clicked")} />
+           <Tablez />
         ) : (
           <h1 className="text-2xl font-bold mb-4">Welcome to the Dashboard!</h1>
         )

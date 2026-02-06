@@ -1,9 +1,19 @@
 "use client"
 
 import { useState } from "react"
-import {ConstructionDetails} from "../components/ConstructionDetailsModal"
-export default function Table() {
+import { ConstructionDetails } from "../components/ConstructionDetailsModal"
+
+interface TableProps {
+  onView?: () => void
+}
+
+export default function Table({ onView }: TableProps) {
   const [showDetails, setShowDetails] = useState(false)
+
+  const handleView = () => {
+    setShowDetails(true)
+    onView?.() // call parent callback if provided
+  }
 
   return (
     <div className="space-y-8">
@@ -59,7 +69,7 @@ export default function Table() {
               </td>
               <td className="px-4 py-3">
                 <button
-                  onClick={() => setShowDetails(true)}
+                  onClick={handleView}
                   className="rounded-lg border border-blue-600 px-4 py-1.5 text-xs font-semibold text-blue-600 hover:bg-blue-50 transition"
                 >
                   View
